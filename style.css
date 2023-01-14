@@ -633,9 +633,6 @@ img {
     height: 100%;
     transform: translateY(100%);
     transition: transform var(--transition);
-    
-    
-
  }
 
 
