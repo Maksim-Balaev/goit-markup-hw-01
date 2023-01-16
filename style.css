@@ -420,6 +420,7 @@ body{
 }
 
 .custom-icon {
+    fill: #8E8F99;
     transition: fill var(--transition);
 }
 
@@ -431,10 +432,7 @@ body{
 .custom-link:focus .custom-icon {
     fill: #404BBF;
 }
-.custom-icon {
-   fill: #8E8F99;  
-    
-}
+
 
 /*--------------FOOTER--------------*/
 .footer {
@@ -726,7 +724,9 @@ img {
     right: 24px;
     transition: background-color var(--transition);
 }
-
+.modal-btn-icon {
+    transition: fill var(--transition);
+}
 .modal-close-btn:hover, 
 .modal-close-btn:focus {
     background-color: var(--link-color);
