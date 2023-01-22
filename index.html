@@ -317,13 +317,50 @@
                     </div>
                 </div>
             </footer>
-            <div class="backdrop is-hidden" data-modal>
+            <div class="backdrop " data-modal>
                 <div class="modal">
                     <button type="button" class="modal-close-btn" data-modal-close>
                         <svg class="modal-btn-icon" width="8" height="8">
                              <use href="./images/symbol-defs3.svg#icon-close"></use>
                         </svg>
                     </button>
+                    <p class="modal-title">Leave your contacts and we will call you back</p>
+                    <form action="modal-form">
+                        <div class="modal-field">
+                            <label for="user-name" class="text-input">Name</label>
+                            <div class="input-wrap">
+                                <input type="text" class="modal-input" name="user-name" placeholder="" required>
+                                <svg class="input-icon" widht="18" height="18">
+                                    <use href="./images/symbol-defs3.svg#icon-person"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="modal-field">
+                            <label for="user-name" class="text-input">Phone</label>
+                            <div class="input-wrap">
+                                <input type="Phone" class="modal-input" name="user-Phone" placeholder="" required>
+                                <svg class="input-icon" widht="18" height="18">
+                                    <use href="./images/symbol-defs3.svg#icon-phone"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="modal-field">
+                            <label for="user-name" class="text-input">Email</label>
+                            <div class="input-wrap">
+                                <input type="Emeal" class="modal-input" name="user-Email" placeholder="" required>
+                                <svg class="input-icon" widht="18" height="18">
+                                    <use href="./images/symbol-defs3.svg#icon-email"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="modal-field">
+                            <label for="user-name" class="text-input">Comment</label>
+                            <div class="input-wrap">
+                                <textarea name="user-text" id="user-text" class="modal-coment" placeholder="Text input"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                    <button type="submit" class="madal-btn">Send</button>
                 </div>
             </div>
             <script src="./js/modal.js"></script>
