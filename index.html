@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./style.css">
     <title>WebStudio</title>
 </head>
@@ -317,12 +317,14 @@
                     </div>
                     <div class="footer-subscribe">
                         <div class="subscribe">
-                            <label for="user-Email" class="subscribe-text-input">Subscribe</label>
-                            <input type="text" class="subscribe-input" name="user-name" placeholder="Email" required>
-                        </div>
-                        <button type="submit" class="button-subscribe">
-                            <svg class="subscribe-icon" width="24" height="24">
-                                <use href="./images/symbol-defs3.svg#icon-Frame"></use></svg>Subscribe</button>
+                            <P class="subscribe-text-input">Subscribe</P>
+                            <form class="subscribe-button-input">
+                                <input type="email" class="subscribe-input" name="user-email" placeholder="Email">
+                                <button type="submit" class="button-subscribe"><span>Subscribe</span>
+                                    <svg class="subscribe-icon" width="24" height="20">
+                                <use href="./images/symbol-defs3.svg#icon-Frame"></use></svg></button>
+                            </form>
+                        </div>  
                     </div>
                 </div>
             </footer>
@@ -334,41 +336,40 @@
                         </svg>
                     </button>
                     <p class="modal-title">Leave your contacts and we will call you back</p>
-                    <form action="modal-form">
-                            <div class="modal-field">
-                                <label for="user-name" class="text-input">Name</label>
-                                <div class="input-wrap">
-                                    <input type="text" class="modal-input" name="user-name" placeholder="" required/>
-                                    <svg class="input-icon" widht="18" height="18"><use href="./images/symbol-defs3.svg#icon-person"></use></svg>
-                                </div>
+                    <form class="modal-form">
+                        <label class="modal-label"><span class="modal-label-text"> Name </span>
+                            <div class="input-wrap">
+                                <input type="text" class="modal-input" name="user-name" required>
+                                <span class="modal-input-icon">
+                                    <svg class="input-icon" widht="18" height="18">
+                                        <use href="./images/symbol-defs3.svg#icon-person"></use></svg></span>
                             </div>
-                            <div class="modal-field">
-                                <label for="user-name" class="text-input">Phone</label>
-                                <div class="input-wrap">
-                                    <input type="Phone" class="modal-input" name="user-Phone" placeholder="" required/>
-                                    <svg class="input-icon" widht="18" height="18"><use href="./images/symbol-defs3.svg#icon-phone"></use></svg>
-                                </div>
+                        </label>
+                        <label class="modal-label"><span class="modal-label-text"> Phone </span>
+                            <div class="input-wrap">
+                                <input type="tel" class="modal-input" name="user-Phone" required>
+                                <span class="modal-input-icon">
+                                    <svg class="input-icon" widht="18px" height="24px">
+                                        <use href="./images/symbol-defs3.svg#icon-phone"></use></svg></span>
                             </div>
-                            <div class="modal-field">
-                                <label for="user-name" class="text-input">Email</label>
-                                <div class="input-wrap">
-                                    <input type="Emeal" class="modal-input" name="user-Email" placeholder="" required/>
-                                    <svg class="input-icon" widht="18" height="18"><use href="./images/symbol-defs3.svg#icon-email"></use></svg>
-                                </div>
+                        </label>
+                        <label class="modal-label"><span class="modal-label-text"> Email </span>
+                            <div class="input-wrap">
+                                <input type="email" class="modal-input" name="user-Email" required>
+                                <span class="modal-input-icon">
+                                    <svg class="input-icon" widht="18px" height="24px">
+                                        <use href="./images/symbol-defs3.svg#icon-email"></use></svg></span>
                             </div>
-                            <div class="modal-field">
-                                <label for="user-name" class="text-input">Comment</label>
-                                <div class="input-wrap">
-                                    <textarea name="user-text" id="user-text" class="modal-coment" placeholder="Text input"></textarea>
-                                </div>
-                            </div>
+                        </label>      
+                        <label class="modal-label-comment">
+                            <span class="modal-label-text"> Comment </span>
+                            <textarea class="modal-textarea" name="user-text" id="user-text" placeholder="Text input"></textarea>
+                        </label>        
                         <div class="modal-field">
-                            <input type="checkbox" id="privacy" name="privacy" value="true" class="input-check visually-hidden">
-                            <label for="privacy" class="check-text">I accept the terms and conditions of the<a href="Privacy Policy" class="privacy-check-text">Privacy Policy</a></label>
+                            <input type="checkbox" name="privacy" id="privacy" value="true" class="input-check visually-hidden"/>
+                            <label for="privacy" class="check-text">I accept the terms and conditions of the<span class="privacy"><a href="Privacy Policy">Privacy Policy</a></span></label>
                         </div>
-                        <div class="modal-input-btn">
                             <button type="submit" class="modal-btn">Send</button>
-                        </div>
                     </form>
                 </div>
             </div>
