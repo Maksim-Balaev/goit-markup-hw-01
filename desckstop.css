@@ -131,7 +131,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .section-btn {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(./images/people-office-2x.jpg);;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(./images/people-office-2x.jpg);
   }
 }
 /*--------------------------------------------section-header----------------------------------------------------*/
@@ -157,15 +157,12 @@
     padding-bottom: 24px; 
     transition: color var(--transition);
     position: relative;
-
 }
-
 .header-contacts {
     display: flex;
     margin-left: auto;
     gap: 40px;
 }
-
 .header-mail {
     font-size: 16px;
     line-height: calc(24/16);
@@ -176,7 +173,6 @@
     padding-bottom: 24px;
     transition: color var(--transition);
 }
-
 .header-tel {
     font-size: 16px;
     line-height: calc(24/16);
@@ -187,4 +183,4 @@
     padding-bottom: 24px;
     transition: color var(--transition);
 }
-
+}
