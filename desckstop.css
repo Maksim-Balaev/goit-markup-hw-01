@@ -1,7 +1,7 @@
 @media screen and (min-width: 1200px) {
 .container {
    width: 1158px;
-   } 
+}
 .footer {
     max-width: 100%;
     padding-top: 100px;
@@ -30,7 +30,7 @@
     display: flex;
     gap: 16px;
     margin-top: 16px;
-    
+
 }
 .footer-soc-item {
     width: 40px;
@@ -83,7 +83,7 @@
     padding-bottom: 120px;
 }
 .custom-list {
-    gap: 24px; 
+    gap: 24px;
 }
 .custom-item {
     width: calc((100% - 120px) / 6);
@@ -113,7 +113,7 @@
 .skills-after-title {
     width: 264px;
     font-weight: 400;
-} 
+}
 .skills-title {
     font-weight: 700;
     font-size: 20px;
@@ -136,15 +136,15 @@
 }
 /*--------------------------------------------section-header----------------------------------------------------*/
 .main-header {
-    display: flex;  
+    display: flex;
 }
 .header-navigation {
     background-color: var(--button-color);
-    display: flex;  
+    display: flex;
 }
 .header-list {
     gap: 40px;
-    display: flex;   
+    display: flex;
 }
 .header-link {
     font-weight: 500;
@@ -154,7 +154,7 @@
     color: var(--text-head);
     display: block;
     padding-top: 24px;
-    padding-bottom: 24px; 
+    padding-bottom: 24px;
     transition: color var(--transition);
     position: relative;
 }
@@ -182,5 +182,9 @@
     padding-top: 24px;
     padding-bottom: 24px;
     transition: color var(--transition);
+}
+/*--------------------------------------------design----------------------------------------------------*/
+.design-list{
+    display: flex;
 }
 }
