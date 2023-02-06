@@ -184,7 +184,7 @@
     transition: color var(--transition);
 }
 /*--------------------------------------------design----------------------------------------------------*/
-.design-list{
+.design-list {
     display: flex;
 }
 }
