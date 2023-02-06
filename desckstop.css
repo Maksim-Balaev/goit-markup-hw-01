@@ -186,5 +186,8 @@
 /*--------------------------------------------design----------------------------------------------------*/
 .design-list {
     display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 120px;
 }
 }
