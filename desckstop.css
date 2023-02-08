@@ -9,7 +9,7 @@
     margin: 0;
 }
 .footer > .container {
-    width: 1200px;
+    width: 1158px;
 }
 .icon-footer {
     display: flex;
@@ -90,7 +90,7 @@
 }
 /*--------------------------------------------hero----------------------------------------------------*/
 .hero > .container {
-    width: 1200px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
