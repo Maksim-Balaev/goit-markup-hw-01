@@ -22,9 +22,14 @@
 /*--------------------------------------------section-btn----------------------------------------------------*/
 .section-btn {
     width: 100%;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(./images/Dark-bg-mob.jpg);
 }
-.section-under-btn {
-    width: 320px;
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-btn {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(./images/Dark-bg-mob-x2.jpg);
+  }
 }
 /*--------------------------------------------portfolio----------------------------------------------------*/
 .portfolio{

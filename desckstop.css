@@ -12,6 +12,7 @@
     width: 1158px;
 }
 .icon-footer {
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -49,11 +50,7 @@
     text-align: left;
 }
 .footer-subscribe {
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
     width: 453px;
-    height: 100%;
 }
 .subscribe-button-input {
     display: flex;
@@ -61,6 +58,7 @@
 }
 .subscribe-text-input {
     margin-top: 0;
+    text-align: start;
 }
 .subscribe-input {
     display: flex;
@@ -90,7 +88,7 @@
 }
 /*--------------------------------------------hero----------------------------------------------------*/
 .hero > .container {
-    width: 1158px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
