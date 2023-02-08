@@ -5,6 +5,9 @@
 .footer {
     width: 100%;
 }
+.footer-logo {
+    text-align: start;
+}
 .icon-footer {
     display: flex;
     flex-wrap: wrap;
@@ -29,6 +32,7 @@
    margin-right: 0;
 }
 .footer-subscribe {
+    text-align: start;
     width: 453px;
     height: 100%;
     margin-left: 0;
@@ -62,6 +66,7 @@
 .hero-list{
     row-gap: 64px;
 }
+
 /*--------------------------------------------skills----------------------------------------------------*/
 .skills {
     padding-top: 96px;
@@ -100,7 +105,7 @@
 .section-under-btn {
     font-size: 56px;
     line-height: calc(60/56);
-    width: 396px;
+    width: 496px;
 }
 .button {
     margin-top: 40px;
@@ -218,5 +223,8 @@
 }
 .second-btn {
     justify-content: center;
+}
+.images-item {
+    width: calc((100%-24px) / 3);
 }
 }
