@@ -12,6 +12,7 @@
 }
 .footer-container {
     display: block;
+    text-align: start;
     width: 264px;
     margin-right: 24px;
     margin-left: 0; 
@@ -62,7 +63,8 @@
     padding-bottom: 104px;
 }
 .hero-list {
-    row-gap: 64px;
+    gap: 64px;
+    column-gap: 24px;
 }
 /*--------------------------------------------skills----------------------------------------------------*/
 .skills {
@@ -70,6 +72,7 @@
     padding-bottom: 96px;
 }
 .skills-list {
+    gap: 24px;
     row-gap: 72px;
 }
 .diligence {
@@ -80,7 +83,7 @@
     width: 351px;
 }
 .skills-after-title {
-    width: 356px;
+    width: 354px;
     font-weight: 500;
 }
 .skills-title {
