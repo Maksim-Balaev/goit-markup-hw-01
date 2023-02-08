@@ -94,7 +94,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .section-btn {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(./images/Dark-bg-tab-2x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(./images/Dark-bg-tab-x2.jpg);
   }
 }
 .section-under-btn {
@@ -110,9 +110,7 @@
 .menu-open {
     display: none;
 }
-.menu-icon-open {
-    
-}
+
 .header {
     background: var(--button-color);
     border-bottom: 1px solid #E7E9FC;

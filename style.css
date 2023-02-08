@@ -175,9 +175,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-.mob-menu-list {
-    display: ;
-}
+
 .menu-close {
     display: flex;
     justify-content: center;
@@ -279,7 +277,7 @@ body{
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .section-btn {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(./images/Dark-bg-mob-2x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(./images/Dark-bg-mob-x2.jpg);
   }
 }
 .section-under-btn {
