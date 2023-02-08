@@ -552,8 +552,7 @@ body{
     color: var(--logo-color);
 }
 .footer-logo {
-    display: block;
-    text-align: center;
+    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
