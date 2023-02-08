@@ -5,9 +5,7 @@
 .footer {
     width: 100%;
 }
-.footer-logo {
-    text-align: start;
-}
+
 .icon-footer {
     display: flex;
     flex-wrap: wrap;
@@ -49,8 +47,7 @@
 
 /*--------------------------------------------custom-------------------------------------------*/
 .custom > .container {
-    padding-left: 108px;
-    padding-right: 108px;
+   width: 552px;
 }
 .custom-list {
     row-gap: 72px; 
@@ -60,13 +57,13 @@
 }
 /*--------------------------------------------hero----------------------------------------------------*/
 .hero {
+    width: 100%;
     padding-top: 104px;
     padding-bottom: 104px;
 }
-.hero-list{
+.hero-list {
     row-gap: 64px;
 }
-
 /*--------------------------------------------skills----------------------------------------------------*/
 .skills {
     padding-top: 96px;
