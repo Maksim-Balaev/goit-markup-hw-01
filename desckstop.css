@@ -39,7 +39,7 @@
 .footer-soc-item {
     width: 40px;
     height: 40px;
-    margin-top: 8px;
+    margin-top: 0px;
 }
 .footer-soc-link {
     width: 100%;
@@ -92,7 +92,7 @@
 }
 /*--------------------------------------------hero----------------------------------------------------*/
 .hero > .container {
-    width: 1200px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -101,6 +101,7 @@
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 .hero-list {
     gap: 24px;
 }
@@ -200,14 +201,8 @@
     text-align: center;
     padding-bottom: 120px;
 }
-/*--------------------------------------------design----------------------------------------------------*/
-.portfolio > .cotainer {
-    width: 100%;
-}
 /*--------------------------------------------portfolio----------------------------------------------------*/
-.portfolio {
-    padding-top: 96px;
-    padding-bottom: 96px;
+.portfolio > .container {
     width: 1158px;
 }
 img {
@@ -215,8 +210,21 @@ img {
     max-width: 100%;
     height: auto;
 }
-.images-item {
-    width: calc((100%-24px) / 4);
+.images-list {
+    display: flex;
+    background: #FFFFFF;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
-
+.images-item {
+    width: 360px;
+}
+.images-item:nth-child(3n) {
+    margin: right 24px;
+}
+.second-btn {
+    flex-wrap: wrap;
+    justify-content: center;
+}
 }
