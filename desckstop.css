@@ -54,6 +54,7 @@
 }
 .footer-subscribe {
     width: 453px;
+    margin-top: 0px;
 }
 .subscribe-button-input {
     display: flex;
