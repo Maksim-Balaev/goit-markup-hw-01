@@ -237,7 +237,7 @@ img {
 }
 .images-list {
     display: flex;
-    background: #FFFFFF;
+    justify-content: space-between;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
